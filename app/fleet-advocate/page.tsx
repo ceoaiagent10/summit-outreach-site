@@ -129,3 +129,12 @@ function Inclusion({ title, body }: { title: string; body: string }) {
     </div>
   );
 }
+
+function FAQ({ q, a }: { q: string; a: string }) {
+  return (
+    <div className="border-b border-slate-200 pb-6">
+      <h3 className="font-bold text-brand-ink mb-2">{q}</h3>
+      <p className="text-slate-600 leading-relaxed">{a}</p>
+    </div>
+  );
+}
