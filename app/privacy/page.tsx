@@ -34,14 +34,34 @@ export default function PrivacyPage() {
         or rent your personal information to third parties.
       </p>
 
+      <h2>Mobile information and SMS sharing policy</h2>
+      <p>
+        <strong>
+          No mobile information will be shared with third parties or affiliates
+          for marketing or promotional purposes.
+        </strong>{" "}
+        All categories under the consent to receive SMS messages from Summit
+        Outreach, Carrier Vault, and Fleet Advocate&mdash;including your mobile
+        phone number, SMS opt-in status, and SMS consent records&mdash;are
+        excluded from sharing with any third parties or affiliates for
+        marketing or promotional reasons. Information sharing to subcontractors
+        in support services, such as customer service, is permitted strictly to
+        deliver the services you requested. All other use case categories
+        exclude text messaging originator opt-in data and consent. This
+        information will not be shared with any third parties.
+      </p>
+
       <h2>SMS / text message communications</h2>
       <p>
-        By providing your phone number you consent to receive SMS messages from
-        Summit Outreach, Carrier Vault, and Fleet Advocate regarding your
-        insurance and safety inquiries. Message and data rates may apply.
-        Message frequency varies. Reply STOP to opt out at any time. Reply HELP
-        for assistance. See our <a href="/sms-consent">SMS Consent</a> page for
-        full details.
+        By providing your phone number and submitting a form, you consent to
+        receive SMS messages from Summit Outreach, Carrier Vault, and Fleet
+        Advocate regarding your insurance quote requests, free safety reviews,
+        renewal reminders, and related insurance and safety inquiries. Message
+        and data rates may apply. Message frequency varies, typically 1&ndash;6
+        messages per month per active request. Reply <strong>STOP</strong> to
+        opt out at any time. Reply <strong>HELP</strong> for assistance, or
+        contact us at (830) 388-7377. See our{" "}
+        <a href="/sms-consent">SMS Consent</a> page for full details.
       </p>
 
       <h2>Your rights</h2>
