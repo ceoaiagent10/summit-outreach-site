@@ -92,11 +92,11 @@ export default function ContactPage() {
       <section className="bg-brand-navy text-white py-16">
         <div className="container-x text-center max-w-3xl">
           <p className="text-xl sm:text-2xl text-slate-200 leading-relaxed mb-8">
-            Prefer to compare both services first?
+            Prefer to learn about each service first?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/carrier-vault" className="btn-primary">
-              Carrier Vault — Insurance Shopping <ArrowRight className="ml-2 h-4 w-4" />
+              Carrier Vault — Insurance Placement <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
             <Link href="/fleet-advocate" className="btn-secondary">
               Fleet Advocate — Free Safety Review
