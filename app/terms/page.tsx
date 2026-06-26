@@ -32,11 +32,13 @@ export default function TermsPage() {
 
       <h2>Insurance quotes (Carrier Vault)</h2>
       <p>
-        Carrier Vault provides quote shopping across multiple commercial
-        trucking insurance carriers. All quotes are subject to carrier
-        underwriting, eligibility, and final binding decisions. Quotes and
-        indications are not guarantees of coverage and may change based on
-        information disclosed during the application process.
+        Carrier Vault places commercial trucking insurance policies with
+        carriers from our specialty market panel through licensed broker
+        partners holding direct appointments with each carrier. All quotes
+        are subject to carrier underwriting, eligibility, and final binding
+        decisions. Quotes and indications are not guarantees of coverage and
+        may change based on information disclosed during the application
+        process.
       </p>
 
       <h2>Accuracy of information you provide</h2>
