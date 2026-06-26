@@ -144,6 +144,5 @@ function Why({ icon, title, body }: { icon: React.ReactNode; title: string; body
       <h3 className="font-bold text-brand-ink mb-2">{title}</h3>
       <p className="text-sm text-slate-600 leading-relaxed">{body}</p>
     </div>
-    </div>
   );
 }
