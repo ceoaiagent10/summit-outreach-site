@@ -12,14 +12,20 @@ export function Footer() {
             <span className="font-bold text-xl">Summit Outreach</span>
           </div>
           <p className="text-sm text-slate-300 max-w-md leading-relaxed">
-            Commercial trucking insurance for growing fleets. Same-day quotes from
-            9 specialty markets. Serving TX, FL, and CA.
+            Commercial trucking insurance for growing fleets. Same-day
+            indications from our specialty carrier panel. Serving TX, FL, and
+            CA.
           </p>
-          <p className="text-xs text-slate-400 mt-6 leading-relaxed">
-            Summit Outreach LLC operates the Carrier Vault and Fleet Advocate
-            marketing brands. All insurance services are placed through
-            appropriately licensed insurance professionals and carrier partners
-            in compliance with applicable state regulations.
+          <p className="text-xs text-slate-300 mt-6 leading-relaxed">
+            <strong className="text-white">Carrier Vault</strong> and{" "}
+            <strong className="text-white">Fleet Advocate</strong> are brands
+            of <strong className="text-white">Summit Outreach LLC</strong>
+            &nbsp;(Wyoming).
+          </p>
+          <p className="text-xs text-slate-400 mt-3 leading-relaxed">
+            All insurance services are placed through appropriately licensed
+            insurance professionals and carrier partners in compliance with
+            applicable state regulations.
           </p>
         </div>
 
