@@ -74,7 +74,7 @@ export default function FleetAdvocatePage() {
         <div className="container-x max-w-3xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-brand-ink text-center mb-12">Common questions</h2>
           <div className="space-y-6">
-            <FAQ q="Is it really free?" a="Yes. No card, no catch. We earn money only if you later choose us to shop your insurance — and that's a totally separate conversation." />
+            <FAQ q="Is it really free?" a="Yes. No card, no catch. We earn money only if you later choose us to place your insurance with one of our carrier partners — and that's a totally separate conversation." />
             <FAQ q="Do I have to buy insurance from you?" a="No. The safety review is yours to keep whether you ever quote with us or not." />
             <FAQ q="How fast?" a="Your review lands within one business day. The 30-minute walk-through can happen the day after." />
             <FAQ q="Will you sell my information?" a="Never. We use your USDOT to pull public FMCSA data. Your info doesn't leave our agency." />
