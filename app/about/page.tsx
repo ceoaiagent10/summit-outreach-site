@@ -4,7 +4,7 @@ import { Briefcase, Shield, Clock, Building2, ArrowRight } from "lucide-react";
 export const metadata = {
   title: "About | Summit Outreach — Commercial Trucking Insurance",
   description:
-    "Summit Outreach LLC operates Carrier Vault (insurance shopping) and Fleet Advocate (free CSA safety reviews) for growing commercial trucking fleets across Texas, Florida, and California.",
+    "Summit Outreach LLC operates Carrier Vault (insurance placement) and Fleet Advocate (free CSA safety reviews) for growing commercial trucking fleets across Texas, Florida, and California.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
             About Summit Outreach
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
-            Built for fleets that want a real shopping partner — not another quote farm.
+            Built for fleets that want a real broker partner &mdash; not another quote farm.
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-slate-200 leading-relaxed">
             Summit Outreach LLC is a Wyoming-registered insurance services
@@ -36,16 +36,15 @@ export default function AboutPage() {
           </h2>
           <p className="text-lg text-slate-700 leading-relaxed mb-6">
             Most commercial trucking agents quote one or two carriers and call
-            it shopping. They make their commission, file the policy, and
-            don&apos;t check in until renewal &mdash; usually right when premium
-            is already jumping. Fleet owners deserve better.
+            it done. They make their commission, file the policy, and
+            don&apos;t check in until renewal &mdash; usually right when
+            premium is already jumping. Fleet owners deserve better.
           </p>
           <p className="text-lg text-slate-700 leading-relaxed">
-            We built Summit Outreach to do the work most agents skip: shop
-            across every major specialty trucking market, monitor the safety
-            data that quietly drives premium, and answer the phone the first
-            time a fleet owner calls. Two brands. One mission. Trucking
-            insurance, done right.
+            We built Summit Outreach to do the work most agents skip: use the
+            full specialty carrier panel, monitor the safety data that quietly
+            drives premium, and answer the phone the first time a fleet owner
+            calls. Two brands. One mission. Trucking insurance, done right.
           </p>
         </div>
       </section>
@@ -61,6 +60,9 @@ export default function AboutPage() {
               Insurance and safety are two different problems. We split them on
               purpose so each one gets a focused team.
             </p>
+            <p className="mt-3 text-sm text-slate-500">
+              <strong>Carrier Vault</strong> and <strong>Fleet Advocate</strong> are brands of <strong>Summit Outreach LLC</strong> (Wyoming).
+            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -75,12 +77,12 @@ export default function AboutPage() {
                 <h3 className="text-2xl font-bold text-brand-ink">Carrier Vault</h3>
               </div>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Insurance shopping across 9 specialty commercial trucking
-                markets &mdash; one application, same-day quotes, real options
-                instead of one rubber-stamp number.
+                Insurance placement across our specialty trucking carrier
+                panel &mdash; one application, same-day indications, real
+                options instead of one rubber-stamp number.
               </p>
               <span className="inline-flex items-center font-semibold text-brand-navy group-hover:text-brand-blue">
-                Shop my insurance <ArrowRight className="ml-2 h-4 w-4" />
+                Get my quote <ArrowRight className="ml-2 h-4 w-4" />
               </span>
             </Link>
 
@@ -116,9 +118,9 @@ export default function AboutPage() {
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Value icon={<Clock className="h-6 w-6" />} title="Same-day responsiveness" body="Quotes by 5pm if you give us the info before noon. The phone gets answered the first time it rings." />
-            <Value icon={<Briefcase className="h-6 w-6" />} title="Real market access" body="9 specialty trucking carriers. Not one. Not two. Real range, real options, real comparison." />
-            <Value icon={<Shield className="h-6 w-6" />} title="Safety-first thinking" body="Premium is downstream of safety scores. We help fix the root cause, not just shop the policy." />
+            <Value icon={<Clock className="h-6 w-6" />} title="Same-day responsiveness" body="Indications by 5pm if you give us the info before noon. The phone gets answered the first time it rings." />
+            <Value icon={<Briefcase className="h-6 w-6" />} title="Real carrier access" body="9 specialty trucking carriers on our panel. Not one. Not two. Real range, real options." />
+            <Value icon={<Shield className="h-6 w-6" />} title="Safety-first thinking" body="Premium is downstream of safety scores. We help fix the root cause, not just renew the policy." />
             <Value icon={<Building2 className="h-6 w-6" />} title="Built for growing fleets" body="Owner-operators turned 5-truck. 14-truck dry van. 25-truck flatbed. The growth zone is where we live." />
           </div>
         </div>
@@ -139,8 +141,8 @@ export default function AboutPage() {
           </p>
           <p className="text-lg text-slate-700 leading-relaxed">
             If you operate a commercial trucking fleet anywhere in TX, FL, or CA
-            and you&apos;ve never seen 9 quotes side by side at renewal, the
-            shopping conversation is worth one phone call.
+            and you&apos;ve never seen real options at renewal, that conversation
+            is worth one phone call.
           </p>
         </div>
       </section>
