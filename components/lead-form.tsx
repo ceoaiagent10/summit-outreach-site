@@ -129,7 +129,7 @@ export function LeadForm({
         />
       </div>
 
-      {/* A2P 10DLC compliant SMS consent — unchecked by default, required before submit */}
+      {/* A2P 10DLC compliant SMS consent — unchecked by default, OPTIONAL (not required to submit) per TCR/CTIA spec */}
       <label
         htmlFor="sms_consent_box"
         className={`flex items-start gap-3 rounded-lg border p-3 cursor-pointer ${
@@ -143,23 +143,23 @@ export function LeadForm({
           type="checkbox"
           checked={smsConsent}
           onChange={(e) => setSmsConsent(e.target.checked)}
-          required
           className="mt-1 h-4 w-4 flex-shrink-0 rounded border-slate-300 text-brand-accent focus:ring-brand-accent"
         />
         <span className={`text-[11px] leading-relaxed ${variant === "dark" ? "text-slate-300" : "text-slate-600"}`}>
           <strong className={variant === "dark" ? "text-white" : "text-brand-ink"}>
-            I agree to receive SMS messages
+            (Optional) I agree to receive SMS messages
           </strong>{" "}
           from Summit Outreach, Carrier Vault, and Fleet Advocate regarding my
           insurance quote, safety review, and related follow-up. Msg &amp; data
           rates may apply. Frequency 1&ndash;6/mo. Reply STOP to opt out. Reply
-          HELP for help. See our{" "}
+          HELP for help. <em>Checking this box is optional and not required to
+          submit this form.</em> See our{" "}
           <a href="/sms-consent" className="underline">SMS Consent</a> and{" "}
           <a href="/privacy" className="underline">Privacy Policy</a>.
         </span>
       </label>
 
-      <SubmitButton label={cta} disabled={!smsConsent} />
+      <SubmitButton label={cta} disabled={false} />
 
       {state.status === "error" && (
         <p className={`text-xs ${variant === "dark" ? "text-orange-300" : "text-red-600"}`}>{state.message}</p>
