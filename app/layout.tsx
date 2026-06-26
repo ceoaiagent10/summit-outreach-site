@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 export const metadata: Metadata = {
   title: "Summit Outreach — Commercial Trucking Insurance",
   description:
-    "Same-day quotes from 9 commercial trucking insurance markets. Built for growing fleets across TX, FL, and CA. Operating Carrier Vault (insurance shopping) and Fleet Advocate (free CSA safety program).",
-  metadataBase: new URL("https://summitoutreach.com"),
+    "Same-day indications from our specialty commercial trucking carrier panel. Built for growing fleets across TX, FL, and CA. Operating Carrier Vault (insurance placement) and Fleet Advocate (free CSA safety program).",
+  metadataBase: new URL("https://thecarriervault.com"),
   openGraph: {
     title: "Summit Outreach — Commercial Trucking Insurance",
-    description: "Same-day quotes from 9 commercial trucking insurance markets.",
+    description: "Same-day indications from our specialty commercial trucking carrier panel.",
     type: "website",
   },
 };
