@@ -3,8 +3,8 @@ import { Phone, ArrowRight, CheckCircle2, Briefcase, Clock, Building2 } from "lu
 import { LeadForm } from "@/components/lead-form";
 
 export const metadata = {
-  title: "Carrier Vault — We Shop Your Trucking Insurance Across 9 Markets | Summit Outreach",
-  description: "Same-day quotes from 9 commercial trucking insurance markets. One call. Real options. Built for growing fleets across TX, FL, and CA.",
+  title: "Carrier Vault — Commercial Trucking Insurance Placement | Summit Outreach",
+  description: "Same-day indications from our specialty trucking carrier panel. Direct broker appointments. Built for growing fleets across TX, FL, and CA.",
 };
 
 export default function CarrierVaultPage() {
@@ -28,14 +28,14 @@ export default function CarrierVaultPage() {
           <div className="max-w-3xl">
             <p className="inline-flex items-center gap-2 rounded-full bg-orange-500/20 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-orange-200 mb-6">
               <Briefcase className="h-3.5 w-3.5" />
-              Carrier Vault — Insurance Shopping
+              Carrier Vault — Insurance Placement
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-              We shop your trucking insurance across <span className="text-orange-400">9 specialty markets</span>.
+              We place your trucking insurance with the best-fit carrier from our <span className="text-orange-400">specialty panel</span>.
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-slate-200 leading-relaxed">
-              One call. Real options. Same-day indications. Most agents quote 1–2
-              carriers and call it shopping. We shop the market.
+              One call. Real options. Same-day indications. Most agents quote 1&ndash;2
+              carriers and call it done. We use our full specialty carrier panel.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Link href="#quote" className="btn-primary">Get My Quote <ArrowRight className="ml-2 h-4 w-4" /></Link>
@@ -56,8 +56,8 @@ export default function CarrierVaultPage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <Step number="1" title="Tell us about your fleet" body="30 seconds. Name, USDOT, basics. We pull the rest from public records." />
-            <Step number="2" title="We shop 9 specialty markets" body="Your back-end submission goes to every carrier with appetite. Quotes come back in hours, not weeks." />
-            <Step number="3" title="You pick the best fit" body="Side-by-side comparison. We handle the paperwork, the filing, and the binder." />
+            <Step number="2" title="We submit to our specialty panel" body="Your submission goes to every panel carrier with appetite. Indications come back in hours, not weeks." />
+            <Step number="3" title="You pick the best fit" body="Side-by-side review of viable options. We handle the paperwork, the filing, and the binder." />
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ export default function CarrierVaultPage() {
       <section className="bg-slate-50 py-20">
         <div className="container-x max-w-5xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-brand-ink text-center mb-4">
-            The 9 markets we shop
+            Our specialty carrier panel
           </h2>
           <p className="text-center text-slate-600 mb-12">
             All accessed through our licensed broker partners holding direct appointments with each carrier.
@@ -95,8 +95,8 @@ export default function CarrierVaultPage() {
           </h2>
           <div className="grid sm:grid-cols-3 gap-6">
             <Why icon={<Clock className="h-6 w-6" />} title="Speed-to-quote" body="Same day for most fleets. Renewal pressure stops being a problem." />
-            <Why icon={<Briefcase className="h-6 w-6" />} title="Real market access" body="9 carriers. Not just the one your agent likes." />
-            <Why icon={<Building2 className="h-6 w-6" />} title="Broker-backed" body="Real broker appointments with every market we name. Not aggregators, not lead resellers." />
+            <Why icon={<Briefcase className="h-6 w-6" />} title="Real carrier access" body="9 carriers on our panel. Not just the one your last agent had." />
+            <Why icon={<Building2 className="h-6 w-6" />} title="Broker-backed" body="Real broker appointments with every carrier we name. Not aggregators, not lead resellers." />
           </div>
         </div>
       </section>
@@ -106,20 +106,20 @@ export default function CarrierVaultPage() {
         <div className="container-x grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold leading-tight">
-              Get your fleet shopped across 9 markets.
+              Get same-day indications from our carrier panel.
             </h2>
             <p className="mt-4 text-lg text-slate-200 leading-relaxed">
-              Drop your info — a licensed producer will reach out within one
-              business hour with same-day quote options. Free, no obligation.
+              Drop your info &mdash; a licensed producer will reach out within one
+              business hour with same-day indications. Free, no obligation.
             </p>
             <a href="tel:+18303887377" className="btn-secondary mt-8 inline-flex">
               <Phone className="mr-2 h-4 w-4" /> Call (830) 388-7377
             </a>
           </div>
           <div className="rounded-2xl bg-brand-ink/40 backdrop-blur p-8 border border-white/10">
-            <h3 className="text-xl font-bold mb-2">Shop My Insurance</h3>
+            <h3 className="text-xl font-bold mb-2">Get My Quote</h3>
             <p className="text-sm text-slate-300 mb-6">Takes 30 seconds. Reach you within the hour.</p>
-            <LeadForm brand="carrier-vault" page="carrier-vault" cta="Shop My Insurance" variant="dark" />
+            <LeadForm brand="carrier-vault" page="carrier-vault" cta="Get My Quote" variant="dark" />
           </div>
         </div>
       </section>
@@ -143,6 +143,7 @@ function Why({ icon, title, body }: { icon: React.ReactNode; title: string; body
       <div className="h-11 w-11 rounded-lg bg-brand-navy/10 text-brand-navy flex items-center justify-center mb-4">{icon}</div>
       <h3 className="font-bold text-brand-ink mb-2">{title}</h3>
       <p className="text-sm text-slate-600 leading-relaxed">{body}</p>
+    </div>
     </div>
   );
 }
