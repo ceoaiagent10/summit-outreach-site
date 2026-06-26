@@ -54,6 +54,71 @@ export default function TermsPage() {
         licensed insurance professional.
       </p>
 
+      <h2>SMS / Text Messaging Program Terms</h2>
+      <p>
+        Summit Outreach LLC, through its Carrier Vault and Fleet Advocate
+        brands, operates a mobile messaging program (the &ldquo;SMS Program&rdquo;)
+        that delivers <strong>transactional and promotional text messages</strong>
+        to users who explicitly opt in. The SMS Program is intended for U.S.
+        commercial trucking fleet owners and decision-makers and includes:
+        quote confirmations and status updates, scheduling and appointment
+        reminders, policy renewal reminders, free CSA safety review follow-up,
+        account notifications, and occasional promotional offers related to
+        commercial trucking insurance.
+      </p>
+      <p>
+        <strong>Age restriction.</strong> The SMS Program is offered only to
+        users who are at least <strong>18 years of age</strong>. By opting in
+        you represent that you are 18 or older and are authorized to receive
+        SMS messages at the mobile number you provide.
+      </p>
+      <p>
+        <strong>How to opt in.</strong> You may opt in by checking the optional
+        SMS consent box on any lead form at thecarriervault.com, by texting us
+        first at (830) 388-7377, or by providing verbal consent during an
+        inbound phone call. SMS consent is never required to receive a quote or
+        any other service.
+      </p>
+      <p>
+        <strong>How to opt out.</strong> You can opt out of the SMS Program at
+        any time by replying <strong>STOP</strong> (or texting STOP, STOPALL,
+        UNSUBSCRIBE, CANCEL, END, or QUIT) to any text message we send. You
+        will receive one final confirmation message acknowledging the opt-out,
+        after which no further SMS messages will be sent. To re-subscribe at a
+        later time, reply <strong>START</strong> or opt in again via our
+        website.
+      </p>
+      <p>
+        <strong>Help.</strong> For help, reply <strong>HELP</strong> to any of
+        our text messages, or contact us directly at (830) 388-7377 or
+        dispatch@thecarriervault.com.
+      </p>
+      <p>
+        <strong>Message frequency.</strong> Frequency varies based on your
+        activity, typically <strong>1&ndash;6 messages per month</strong> per
+        active request.
+      </p>
+      <p>
+        <strong>Message and data rates.</strong> <strong>Msg &amp; data rates
+        may apply.</strong> Your mobile carrier may charge you for sending and
+        receiving SMS messages depending on your wireless plan. Summit Outreach
+        LLC is not responsible for charges levied by your carrier.
+      </p>
+      <p>
+        <strong>Carrier disclaimer.</strong> Wireless carriers (including but
+        not limited to AT&amp;T, T-Mobile, Verizon Wireless, Sprint, Boost,
+        US Cellular, MetroPCS, Cricket, and Virgin Mobile) are <strong>not
+        liable for delayed or undelivered messages</strong>. Message delivery
+        is not guaranteed.
+      </p>
+      <p>
+        <strong>Privacy.</strong> Phone numbers and SMS consent records are
+        protected under our{" "}
+        <a href="/privacy">Privacy Policy</a>. We do not share mobile
+        information with third parties or affiliates for marketing or
+        promotional purposes.
+      </p>
+
       <h2>Limitation of liability</h2>
       <p>
         Summit Outreach LLC and its carrier partners shall not be liable for
