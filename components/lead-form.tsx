@@ -147,14 +147,16 @@ export function LeadForm({
         />
         <span className={`text-[11px] leading-relaxed ${variant === "dark" ? "text-slate-300" : "text-slate-600"}`}>
           <strong className={variant === "dark" ? "text-white" : "text-brand-ink"}>
-            (Optional) I agree to receive SMS messages
+            (Optional) I agree to receive transactional and promotional SMS messages
           </strong>{" "}
-          from Summit Outreach, Carrier Vault, and Fleet Advocate regarding my
-          insurance quote, safety review, and related follow-up. Msg &amp; data
-          rates may apply. Frequency 1&ndash;6/mo. Reply STOP to opt out. Reply
-          HELP for help. <em>Checking this box is optional and not required to
-          submit this form.</em> See our{" "}
-          <a href="/sms-consent" className="underline">SMS Consent</a> and{" "}
+          (including quote confirmations, scheduling, renewal reminders, safety
+          review follow-up, and occasional promotional offers) from Summit
+          Outreach, Carrier Vault, and Fleet Advocate at the mobile number I
+          provided. Msg &amp; data rates may apply. Frequency 1&ndash;6/mo.
+          Reply STOP to opt out. Reply HELP for help. <em>Checking this box is
+          optional and not required to submit this form.</em> See our{" "}
+          <a href="/sms-consent" className="underline">SMS Consent</a>,{" "}
+          <a href="/terms" className="underline">Terms</a>, and{" "}
           <a href="/privacy" className="underline">Privacy Policy</a>.
         </span>
       </label>
