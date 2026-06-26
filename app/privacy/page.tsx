@@ -21,17 +21,18 @@ export default function PrivacyPage() {
 
       <h2>How we use your information</h2>
       <ul>
-        <li>To provide the services you requested (insurance quoting through Carrier Vault, free safety reviews through Fleet Advocate).</li>
+        <li>To provide the services you requested (insurance placement through Carrier Vault, free safety reviews through Fleet Advocate).</li>
         <li>To contact you via phone, email, and SMS about your request and related insurance options.</li>
-        <li>To submit your information to commercial trucking insurance carriers/MGAs when you ask us to shop your coverage.</li>
+        <li>To submit your information to commercial trucking insurance carriers/MGAs on your behalf when you ask us to place coverage.</li>
         <li>To comply with legal and regulatory obligations.</li>
       </ul>
 
       <h2>How we share your information</h2>
       <p>
         We share your information only with insurance carriers, MGAs, and
-        wholesalers when you have asked us to shop your coverage. We do not sell
-        or rent your personal information to third parties.
+        wholesalers when you have asked us to place coverage on your behalf as
+        your broker of record. We do not sell or rent your personal information
+        to third parties.
       </p>
 
       <h2>Mobile information and SMS sharing policy</h2>
