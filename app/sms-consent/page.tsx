@@ -46,7 +46,7 @@ export default function SmsConsentPage() {
       <h2>How to get help</h2>
       <p>
         Reply <strong>HELP</strong> to any text message for assistance, or
-        contact us directly at (830) 388-7377 or ceod@southwesternins.com.
+        contact us directly at (830) 388-7377 or dispatch@thecarriervault.com.
       </p>
 
       <h2>Supported carriers</h2>
@@ -68,7 +68,7 @@ export default function SmsConsentPage() {
       <p>
         Summit Outreach LLC<br />
         1621 Central Ave, Cheyenne, WY 82001<br />
-        ceod@southwesternins.com · (830) 388-7377
+        dispatch@thecarriervault.com · (830) 388-7377
       </p>
     </div>
   );

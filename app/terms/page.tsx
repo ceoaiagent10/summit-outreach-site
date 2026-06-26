@@ -8,18 +8,18 @@ export default function TermsPage() {
 
       <h2>Use of this website</h2>
       <p>
-        By using summitoutreach.com and its services (Carrier Vault, Fleet
+        By using this website and its services (Carrier Vault, Fleet
         Advocate), you agree to these Terms. If you do not agree, please do not
         use the site.
       </p>
 
       <h2>About our services</h2>
       <p>
-        Summit Outreach LLC is a marketing brand of CEO Insurance LLC.
-        Insurance is offered through <strong>Southwestern Insurance</strong>, a
-        licensed broker. Conor O&apos;Donoghue is a licensed insurance producer.
-        All insurance binders and policies are issued by the underlying
-        insurance carriers/MGAs.
+        Summit Outreach LLC operates the Carrier Vault and Fleet Advocate
+        marketing brands. All insurance services are placed through
+        appropriately licensed insurance professionals and carrier partners in
+        compliance with applicable state regulations. All insurance binders and
+        policies are issued by the underlying insurance carriers/MGAs.
       </p>
 
       <h2>Free Safety Reviews (Fleet Advocate)</h2>
@@ -56,10 +56,9 @@ export default function TermsPage() {
 
       <h2>Limitation of liability</h2>
       <p>
-        Summit Outreach LLC, CEO Insurance LLC, and Southwestern Insurance
-        shall not be liable for any indirect, incidental, special,
-        consequential, or punitive damages arising from your use of this
-        website or our services.
+        Summit Outreach LLC and its carrier partners shall not be liable for
+        any indirect, incidental, special, consequential, or punitive damages
+        arising from your use of this website or our services.
       </p>
 
       <h2>Changes to these terms</h2>
@@ -72,7 +71,7 @@ export default function TermsPage() {
       <p>
         Summit Outreach LLC<br />
         1621 Central Ave, Cheyenne, WY 82001<br />
-        ceod@southwesternins.com · (830) 388-7377
+        dispatch@thecarriervault.com · (830) 388-7377
       </p>
     </div>
   );

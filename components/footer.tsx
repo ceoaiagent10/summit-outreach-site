@@ -16,20 +16,22 @@ export function Footer() {
             9 specialty markets. Serving TX, FL, and CA.
           </p>
           <p className="text-xs text-slate-400 mt-6 leading-relaxed">
-            Summit Outreach LLC is a marketing brand of CEO Insurance LLC.
-            Insurance is offered through Southwestern Insurance, a licensed broker.
-            Conor O&apos;Donoghue is a licensed insurance producer.
+            Summit Outreach LLC operates the Carrier Vault and Fleet Advocate
+            marketing brands. All insurance services are placed through
+            appropriately licensed insurance professionals and carrier partners
+            in compliance with applicable state regulations.
           </p>
         </div>
 
         <div>
           <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider text-slate-200">
-            Services
+            Company
           </h4>
           <ul className="space-y-2 text-sm text-slate-300">
-            <li><Link href="/carrier-vault" className="hover:text-white">Carrier Vault — Insurance Shopping</Link></li>
-            <li><Link href="/fleet-advocate" className="hover:text-white">Fleet Advocate — Safety Program</Link></li>
-            <li><Link href="/#why-us" className="hover:text-white">Why Us</Link></li>
+            <li><Link href="/about" className="hover:text-white">About</Link></li>
+            <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
+            <li><Link href="/carrier-vault" className="hover:text-white">Carrier Vault</Link></li>
+            <li><Link href="/fleet-advocate" className="hover:text-white">Fleet Advocate</Link></li>
           </ul>
         </div>
 
@@ -48,7 +50,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x py-6 flex flex-col sm:flex-row justify-between gap-3 text-xs text-slate-400">
           <span>© {new Date().getFullYear()} Summit Outreach LLC. All rights reserved.</span>
-          <span>EIN: 42-2550732 · 1621 Central Ave, Cheyenne, WY 82001</span>
+          <span>1621 Central Ave, Cheyenne, WY 82001 · dispatch@thecarriervault.com</span>
         </div>
       </div>
     </footer>

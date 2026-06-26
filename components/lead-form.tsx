@@ -1,14 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import { useFormState, useFormStatus } from "react-dom";
 import { submitLead, LeadFormState } from "@/app/actions";
 
 const initial: LeadFormState = { status: "idle" };
 
-function SubmitButton({ label }: { label: string }) {
+function SubmitButton({ label, disabled }: { label: string; disabled: boolean }) {
   const { pending } = useFormStatus();
   return (
-    <button type="submit" disabled={pending} className="btn-primary w-full disabled:opacity-70">
+    <button
+      type="submit"
+      disabled={pending || disabled}
+      className="btn-primary w-full disabled:opacity-50 disabled:cursor-not-allowed"
+    >
       {pending ? "Sending..." : label}
     </button>
   );
@@ -26,6 +31,7 @@ export function LeadForm({
   variant?: "dark" | "light";
 }) {
   const [state, formAction] = useFormState(submitLead, initial);
+  const [smsConsent, setSmsConsent] = useState(false);
 
   const label = variant === "dark" ? "text-slate-200" : "text-slate-700";
   const input =
@@ -46,6 +52,7 @@ export function LeadForm({
     <form action={formAction} className="space-y-4">
       <input type="hidden" name="brand_source" value={brand} />
       <input type="hidden" name="page" value={page} />
+      <input type="hidden" name="sms_consent" value={smsConsent ? "yes" : "no"} />
       <input type="text" name="website" tabIndex={-1} aria-hidden className="hidden" />
 
       <div>
@@ -122,15 +129,45 @@ export function LeadForm({
         />
       </div>
 
-      <SubmitButton label={cta} />
+      {/* A2P 10DLC compliant SMS consent — unchecked by default, required before submit */}
+      <label
+        htmlFor="sms_consent_box"
+        className={`flex items-start gap-3 rounded-lg border p-3 cursor-pointer ${
+          variant === "dark"
+            ? "border-white/20 bg-white/5 hover:bg-white/10"
+            : "border-slate-300 bg-slate-50 hover:bg-slate-100"
+        }`}
+      >
+        <input
+          id="sms_consent_box"
+          type="checkbox"
+          checked={smsConsent}
+          onChange={(e) => setSmsConsent(e.target.checked)}
+          required
+          className="mt-1 h-4 w-4 flex-shrink-0 rounded border-slate-300 text-brand-accent focus:ring-brand-accent"
+        />
+        <span className={`text-[11px] leading-relaxed ${variant === "dark" ? "text-slate-300" : "text-slate-600"}`}>
+          <strong className={variant === "dark" ? "text-white" : "text-brand-ink"}>
+            I agree to receive SMS messages
+          </strong>{" "}
+          from Summit Outreach, Carrier Vault, and Fleet Advocate regarding my
+          insurance quote, safety review, and related follow-up. Msg &amp; data
+          rates may apply. Frequency 1&ndash;6/mo. Reply STOP to opt out. Reply
+          HELP for help. See our{" "}
+          <a href="/sms-consent" className="underline">SMS Consent</a> and{" "}
+          <a href="/privacy" className="underline">Privacy Policy</a>.
+        </span>
+      </label>
+
+      <SubmitButton label={cta} disabled={!smsConsent} />
 
       {state.status === "error" && (
         <p className={`text-xs ${variant === "dark" ? "text-orange-300" : "text-red-600"}`}>{state.message}</p>
       )}
 
       <p className={`text-[11px] leading-relaxed ${variant === "dark" ? "text-slate-400" : "text-slate-500"}`}>
-        By submitting, you consent to receive calls, texts, and emails from Summit Outreach
-        about your insurance options. Msg &amp; data rates may apply. Reply STOP to opt out.
+        By submitting, you confirm the information above is accurate and consent
+        to be contacted by phone and email regarding your insurance request.
       </p>
     </form>
   );

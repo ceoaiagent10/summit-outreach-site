@@ -67,7 +67,7 @@ export default function PrivacyPage() {
       <h2>Your rights</h2>
       <p>
         You may request access, correction, or deletion of your personal
-        information at any time by contacting us at ceod@southwesternins.com.
+        information at any time by contacting us at dispatch@thecarriervault.com.
         California residents have additional rights under the California
         Consumer Privacy Act (CCPA), including the right to know what personal
         information we collect, the right to delete it, and the right to opt
@@ -85,7 +85,7 @@ export default function PrivacyPage() {
       <p>
         Summit Outreach LLC<br />
         1621 Central Ave, Cheyenne, WY 82001<br />
-        ceod@southwesternins.com · (830) 388-7377
+        dispatch@thecarriervault.com · (830) 388-7377
       </p>
     </div>
   );

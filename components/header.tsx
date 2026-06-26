@@ -17,17 +17,17 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
+        <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-slate-700">
           <Link href="/carrier-vault" className="hover:text-brand-navy transition-colors">
             Carrier Vault
           </Link>
           <Link href="/fleet-advocate" className="hover:text-brand-navy transition-colors">
             Fleet Advocate
           </Link>
-          <Link href="/#why-us" className="hover:text-brand-navy transition-colors">
-            Why Us
+          <Link href="/about" className="hover:text-brand-navy transition-colors">
+            About
           </Link>
-          <Link href="/#contact" className="hover:text-brand-navy transition-colors">
+          <Link href="/contact" className="hover:text-brand-navy transition-colors">
             Contact
           </Link>
         </nav>

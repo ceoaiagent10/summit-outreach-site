@@ -186,8 +186,8 @@ export default function Home() {
             />
             <Differentiator
               icon={<Building2 className="h-6 w-6" />}
-              title="Powered by Southwestern"
-              body="Policies written through Southwestern Insurance — a licensed broker holding appointments with every market we name."
+              title="Real Broker Appointments"
+              body="Policies are placed through licensed broker partners with appointments at every market we name — not aggregators, not lead resellers."
             />
             <Differentiator
               icon={<Shield className="h-6 w-6" />}

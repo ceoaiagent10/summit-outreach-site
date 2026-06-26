@@ -69,7 +69,7 @@ export default function CarrierVaultPage() {
             The 9 markets we shop
           </h2>
           <p className="text-center text-slate-600 mb-12">
-            All accessed through Southwestern Insurance — a licensed broker holding appointments with each.
+            All accessed through our licensed broker partners holding direct appointments with each carrier.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {markets.map((m) => (
@@ -96,7 +96,7 @@ export default function CarrierVaultPage() {
           <div className="grid sm:grid-cols-3 gap-6">
             <Why icon={<Clock className="h-6 w-6" />} title="Speed-to-quote" body="Same day for most fleets. Renewal pressure stops being a problem." />
             <Why icon={<Briefcase className="h-6 w-6" />} title="Real market access" body="9 carriers. Not just the one your agent likes." />
-            <Why icon={<Building2 className="h-6 w-6" />} title="Broker-backed" body="Through Southwestern Insurance, we hold real appointments with every market we name." />
+            <Why icon={<Building2 className="h-6 w-6" />} title="Broker-backed" body="Real broker appointments with every market we name. Not aggregators, not lead resellers." />
           </div>
         </div>
       </section>
