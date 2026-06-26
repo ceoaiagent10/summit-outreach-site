@@ -31,15 +31,15 @@ export default function Home() {
           <div className="max-w-3xl">
             <p className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-orange-200">
               <Clock className="h-3.5 w-3.5" />
-              Same-day quotes · 9 specialty markets
+              Same-day indications · Specialty carrier panel
             </p>
             <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
               Commercial Trucking Insurance,{" "}
               <span className="text-orange-400">Done Right.</span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-slate-200 leading-relaxed max-w-2xl">
-              Same-day quotes from 9 commercial markets. Built for growing fleets
-              across Texas, Florida, and California.
+              Same-day indications from our specialty carrier panel. Built for
+              growing fleets across Texas, Florida, and California.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Link href="#contact" className="btn-primary">
@@ -84,15 +84,16 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-brand-ink">Carrier Vault</h3>
               </div>
               <p className="text-slate-600 leading-relaxed mb-6">
-                We shop your trucking insurance across 9 specialty commercial
-                markets — Progressive, Canal, Hudson, Berkshire Hathaway Specialty,
-                RLI, Northland, Carolina Casualty, Old Republic, Coverwhale.
-                One call. Real options. Same-day indications.
+                Carrier Vault places your trucking insurance with the best-fit
+                carrier from our specialty panel — Progressive, Canal, Hudson,
+                Berkshire Hathaway Specialty, RLI, Northland, Carolina
+                Casualty, Old Republic, Coverwhale. One call. Real options.
+                Same-day indications.
               </p>
               <ul className="space-y-2 mb-6 text-sm text-slate-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-4 w-4 mt-0.5 text-brand-blue flex-shrink-0" />
-                  9 specialty markets, one application
+                  Specialty carrier panel, one application
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-4 w-4 mt-0.5 text-brand-blue flex-shrink-0" />
@@ -104,7 +105,7 @@ export default function Home() {
                 </li>
               </ul>
               <span className="inline-flex items-center font-semibold text-brand-navy group-hover:text-brand-blue">
-                Shop my insurance
+                Get my quote
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </span>
             </Link>
@@ -154,8 +155,8 @@ export default function Home() {
           <p className="text-xl sm:text-2xl text-slate-700 leading-relaxed">
             We get trucking. Insurance shouldn&apos;t be the hardest part of running
             your fleet. We built Summit Outreach to make sure your renewal is
-            shopped, your safety is monitored, and your phone gets answered the
-            first time.
+            placed competitively, your safety is monitored, and your phone gets
+            answered the first time.
           </p>
         </div>
       </section>
@@ -181,8 +182,8 @@ export default function Home() {
             />
             <Differentiator
               icon={<Briefcase className="h-6 w-6" />}
-              title="9 Specialty Markets"
-              body="We shop across every major commercial trucking carrier so you see the real range, not just one option."
+              title="Specialty Carrier Panel"
+              body="Direct broker appointments at every major commercial trucking carrier on our panel — Progressive, Canal, Hudson, BHSI, RLI, Northland, Carolina Casualty, Old Republic, Coverwhale."
             />
             <Differentiator
               icon={<Building2 className="h-6 w-6" />}
@@ -242,8 +243,8 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-lg text-slate-200 leading-relaxed">
               Drop your info. A licensed producer will reach out within one
-              business hour with same-day quote options from up to 9 specialty
-              markets. Or call now — we answer the phone.
+              business hour with same-day indications from our specialty
+              carrier panel. Or call now — we answer the phone.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a href="tel:+18303887377" className="btn-secondary">
@@ -253,7 +254,7 @@ export default function Home() {
             </div>
 
             <div className="mt-12 grid grid-cols-2 gap-6 text-sm">
-              <Stat number="9" label="Specialty markets shopped" />
+              <Stat number="9" label="Carriers on our panel" />
               <Stat number="Same-day" label="Quote turnaround" />
               <Stat number="TX · FL · CA" label="Licensed in 3 states" />
               <Stat number="100%" label="Free safety reviews" />
@@ -276,7 +277,7 @@ export default function Home() {
 function Differentiator({ icon, title, body }: { icon: React.ReactNode; title: string; body: string }) {
   return (
     <div className="rounded-xl border border-slate-200 p-6 hover:border-brand-navy transition-colors">
-      <div className="h-11 w-11 rounded-lg bg-brand-navy/10 text-brand-navy flex items-center justify-center mb-4">
+      <div className="h-11 w-11 rounded-lg bg-brand-navy/10 text-brand-ink flex items-center justify-center mb-4">
         {icon}
       </div>
       <h3 className="font-bold text-brand-ink mb-2">{title}</h3>
