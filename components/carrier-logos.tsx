@@ -15,7 +15,7 @@ export function CarrierLogos() {
     <section className="border-y border-slate-200 bg-slate-50/60 py-10">
       <div className="container-x">
         <p className="text-center text-xs font-semibold uppercase tracking-wider text-slate-500 mb-6">
-          We shop your insurance across 9 specialty trucking markets
+          Specialty trucking carrier panel
         </p>
         <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-9 gap-x-4 gap-y-4 items-center">
           {carriers.map((name) => (
